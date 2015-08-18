@@ -1,0 +1,11 @@
+Blinky.uvguix.chrsei01
+*.d
+*.o
+Flash/Blinky.sct
+*.map
+Flash/Blinky_LPC1857 Flash.dep
+Flash/Blinky.axf
+*.crf
+*.lst
+*.htm
+Blinky.uvguix

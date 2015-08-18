@@ -1,0 +1,10 @@
+--cpu Cortex-M3 --pd "__RTX SETA 1" -g --apcs=interwork 
+-I C:\Git\Blinky\RTE
+-I C:\Git\Blinky\RTE\Device\LPC1857
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC
+-I C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\Device\Include
+-I C:\Keil_v5\ARM\PACK\Keil\LPC1800_DFP\2.5.0\RTE_Driver
+-I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\Board
+--pd "__UVISION_VERSION SETA 516" --pd "_RTE_ SETA 1" --pd "LPC18xx SETA 1"
+--list .\flash\startup_lpc18xx.lst --xref -o .\flash\startup_lpc18xx.o --depend .\flash\startup_lpc18xx.d "RTE\Device\LPC1857\startup_LPC18xx.s"
