@@ -9,6 +9,8 @@
  *---------------------------------------------------------------------------*/
 
 // test to commit
+// another
+
 
 #include "cmsis_os.h"
 #include "LPC18xx.h"
