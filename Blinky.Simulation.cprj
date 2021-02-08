@@ -46,7 +46,7 @@
       <file category="sourceC" name="./Blinky.c"/>
     </group>
     <group name="Documentation">
-      <file category="doc" name="./Abstract.txt"/>
+      <file category="doc" name="./README.md"/>
     </group>
   </files>
 
