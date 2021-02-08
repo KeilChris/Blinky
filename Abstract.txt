@@ -20,7 +20,6 @@ are output on the Debug printf window:
 This example simulates Half step driver mode and
 CW rotation direction.
 
-
 The BLINKY example program is available for one target:
 
   Simulation:          configured for a simulated on-chip Flash
