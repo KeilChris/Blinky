@@ -52,7 +52,7 @@ void Switch_On (unsigned char led) {
  *      Switch LED off
  *---------------------------------------------------------------------------*/
 void Switch_Off (unsigned char led) {
-  printf("LED On: #%d\n\r", led);
+  printf("LED Off: #%d\n\r", led);
 }
 
 
